@@ -11,5 +11,5 @@ Notiz
 **7.** sleep(t,单位是毫秒)，如果只想要一个sleep，加入if(Haupt.p==this)代码，则只有当P运行的时候会sleep  
 **8.** InterruptedException 打断睡眠  
 **9.1** 在方法中加入synchronized，避免了5中产生的脏数据  
-**9.2** 在Haupt中创建一个Object如s，在Prozess中的run()中插入synchronized(s)，实现另一种方式的锁
+**9.2** 在Haupt中创建一个Object如s，在Prozess中的run()中插入synchronized(s)，实现另一种方式的锁  
 **10** 生产消费模型
